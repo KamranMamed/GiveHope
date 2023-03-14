@@ -1,0 +1,215 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header .up{
+    /* position: fixed;
+    top: 0; left: 0; right: 0; */
+    width: 100%;
+    min-height: 330px;
+    /* background: gray; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/تفسير-حلم-إعطاء-المال-للفقير2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+header .up .navbar{
+    /* background: red; */
+    width: 100%;
+    min-height: 70px;
+}
+
+header .up .navbar .leftUp{
+    width: 200px;
+    min-height: 70px;
+    margin-left: 165px;
+    /* background: green; */
+    float: left;
+}
+
+header .up .navbar .leftUp ul{
+    list-style: none;
+}
+
+header .up .navbar .leftUp ul li{
+    position: relative;
+    float: left
+}
+
+header .up .navbar .leftUp ul li a{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    padding: 7px;
+    display: block;
+}
+
+header .up .navbar .rightUp{
+    width: 600px;
+    min-height: 70px;
+    /* background: rebeccapurple; */
+    margin-right: 100px;
+    float: right;
+}
+
+header .up .navbar .rightUp ul{
+    list-style: none
+}
+
+header .up .navbar .rightUp ul li{
+    position:relative;
+    float: left;
+}
+
+header .up .navbar .rightUp ul li a{
+    font-size: 14px;
+    color: black;
+    padding: 15px;
+    display: block;
+    transition: 0.5s
+}
+
+header .up .navbar .rightUp ul li a:hover{
+    background: aqua;
+}
+
+header .up .upCenter{
+    width: 100%;
+    min-height: 150px;
+    /* background: blue; */
+    /* margin: 0 400px; */
+    float: left;
+}
+
+header .up .upCenter span{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+header .up .updown{
+    width: 100%;
+    min-height: 40px;
+    /* background:darkslategrey ; */
+    float: left;
+    /* margin: 0 570px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .up .updown span {
+color: rgb(0, 0, 0);
+font-size: 15px;
+padding: 10px;
+}
+
+/* header .down{
+    width: 100%;
+    min-height: 300px;
+    background: white;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .down .center{
+    width: 65%;
+    min-height: 400px;
+    background: darkblue;
+    float:left;
+}
+
+header .down .center .upDown{
+    width: 100%;
+    min-height: 270px;
+    background: darkred;
+    float: left;
+}
+
+header .down .center .upDown .leftupDown{
+    width: 50%;
+    min-height: 220px;
+    background: yellow;
+    float: left;
+}
+
+header .down .center .upDown .rightupDown{
+    width: 50%;
+    min-height: 220px ;
+    background: chocolate;
+    float: left;
+}
+
+header .down .center .downDown{
+    width: 100%;
+    min-height: 130px;
+    background: indianred;
+    float: left;
+}
+
+header .down .center .downDown .leftdownDown{
+    width: 33%;
+    min-height: 130px;
+    background:sandybrown ;
+} */
+
+
+
+/* header  #menu-bar{
+    display: none;
+}
+
+header  label{
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+    color: #000;
+} */
+
+
+
+
+
+
+
+/* @media(max-width:991px){
+
+    .navbar{
+        padding: 20px;
+    }
+
+    header label{
+        display: initial;
+    }
+
+    header .up .navbar .rightUp{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #000000;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none;
+    }
+
+    header .up .navbar .rightUp ul li{
+        width: 100%;
+    }
+
+    #menu-bar:checked ~ .rightUp{
+        display: initial;
+    }
+}     */
