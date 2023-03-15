@@ -15,7 +15,7 @@ header .up{
     /* position: fixed;
     top: 0; left: 0; right: 0; */
     width: 100%;
-    min-height: 330px;
+    min-height: 650px;
     /* background: gray; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/تفسير-حلم-إعطاء-المال-للفقير2.webp');
     background-size: cover;
@@ -24,15 +24,22 @@ header .up{
 } 
 
 header .up .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* background: red; */
-    width: 100%;
-    min-height: 70px;
+    /* width: 100%;
+    min-height: 70px; */
+     position: fixed;
+     right: 0;
+     left: 0;
+     top: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 header .up .navbar .leftUp{
-    width: 200px;
-    min-height: 70px;
-    margin-left: 165px;
+    min-height: 90px;
     /* background: green; */
     float: left;
 }
@@ -55,10 +62,8 @@ header .up .navbar .leftUp ul li a{
 }
 
 header .up .navbar .rightUp{
-    width: 600px;
-    min-height: 70px;
+    min-height: 90px;
     /* background: rebeccapurple; */
-    margin-right: 100px;
     float: right;
 }
 
@@ -85,18 +90,17 @@ header .up .navbar .rightUp ul li a:hover{
 
 header .up .upCenter{
     width: 100%;
-    min-height: 150px;
+    min-height: 300px;
     /* background: blue; */
-    /* margin: 0 400px; */
-    float: left;
-}
-
-header .up .upCenter span{
-    font-size: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 40px;
+    float: left;
+    padding: 90px;
+    color: black;
+}
+
+header .up .upCenter h2{
+    font-size: 70px;
 }
 
 header .up .updown{
@@ -104,19 +108,18 @@ header .up .updown{
     min-height: 40px;
     /* background:darkslategrey ; */
     float: left;
-    /* margin: 0 570px; */
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 header .up .updown span {
-color: rgb(0, 0, 0);
+color: black;
 font-size: 15px;
-padding: 10px;
 }
 
-/* header .down{
+section .down{
     width: 100%;
     min-height: 300px;
     background: white;
@@ -126,46 +129,268 @@ padding: 10px;
     justify-content: center;
 }
 
-header .down .center{
-    width: 65%;
-    min-height: 400px;
-    background: darkblue;
+section .down .center{
+    width: 86%;
+    min-height: 750px;
+    /* background: darkblue; */
     float:left;
 }
 
-header .down .center .upDown{
+section .down .center .upDown{
     width: 100%;
-    min-height: 270px;
-    background: darkred;
+    min-height: 550px;
+    /* background: darkred; */
     float: left;
 }
 
-header .down .center .upDown .leftupDown{
+section .down .center .upDown .leftupDown{
     width: 50%;
-    min-height: 220px;
+    min-height: 500px;
+    /* background: yellow; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .down .center .upDown .leftupDown .ServedOver{
+    min-width: 50%;
+    min-height: 200px;
+    background-color: rgb(197, 168, 41);/*не трогать */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+section .down .center .upDown .leftupDown .ServedOver .S{
+    font-size: 30px;
+}
+
+section .down .center .upDown .leftupDown .ServedOver .N{
+    font-size: 60px;
+}
+
+section .down .center .upDown .leftupDown .ServedOver .C{
+    font-size: 30px;
+}
+
+section .down .center .upDown .leftupDown .ServedOver p{
+    width: 60%;
+    min-height: 38px;
+    background: white;
+    font-size: 20px;
+    float: left;
+    padding: 7px;
+    }
+
+    section .down .center .upDown .leftupDown .ServedOver p a{
+        color: black;
+    }
+
+
+section .down .center .upDown .rightupDown{
+    width: 50%;
+    min-height: 500px ;
+    /* background: rgb(134, 77, 36); */
+    float: left;
+}
+
+section .down .center .upDown .rightupDown h2{
+    padding: 55px;
+}
+
+section .down .center .upDown .rightupDown p{
+    padding: 10px;
+}
+
+
+
+section .down .center .upDown .rightupDown .w{
+    font-size: 50px;
+}
+
+section .down .center .upDown .rightupDown .f{
+    font-size: 25px;
+}
+
+section .down .center .upDown .rightupDown .a{
+    font-size: 20px;
+}
+
+section .down .center .upDown .rightupDown ul{
+    list-style: none;
+    padding: 10px;
+}
+
+section .down .center .upDown .rightupDown ul li{
+    width: 26%;
+    min-width: 25px ;
+    /* position: relative; */
     background: yellow;
     float: left;
+    padding: 10px;
+    font-size: 20px;
 }
 
-header .down .center .upDown .rightupDown{
-    width: 50%;
-    min-height: 220px ;
-    background: chocolate;
-    float: left;
+section .down .center .upDown .rightupDown ul li a{
+    color: white;
 }
 
-header .down .center .downDown{
+section .down .center .downDown{
     width: 100%;
-    min-height: 130px;
-    background: indianred;
+    min-height: 250px;
+    /* background: indianred; */
     float: left;
 }
 
-header .down .center .downDown .leftdownDown{
+section .down .center .downDown .leftdownDown{
     width: 33%;
-    min-height: 130px;
-    background:sandybrown ;
-} */
+    min-height: 250px;
+    /* background:sandybrown ; */
+    float: left;
+}
+
+section .down .center .downDown .leftdownDown .first{
+    width: 15%;
+    height: 250px;
+    /* background: crimson; */
+    float: left;
+}
+
+section .down .center .downDown .leftdownDown .first span{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+section .down .center .downDown .leftdownDown .second{
+    width: 85%;
+    height: 250px;
+    /* background:cyan; */
+    float: left;
+}
+
+section .down .center .downDown .leftdownDown .second .head{
+    padding: 5px;
+}
+
+section .down .center .downDown .leftdownDown .second .midle{
+    padding: 5px;
+    font-size: 16px;
+}
+
+section .down .center .downDown .leftdownDown .second .foot{
+    padding: 7px;
+    font-size: 16px;
+}
+
+section .down .center .downDown .leftdownDown .second .foot a{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+section .down .center .downDown .centerdownDown{
+    width: 34%;
+    min-height: 250px;
+    /* background:darkgreen; */
+    float: left;
+}
+
+section .down .center .downDown .centerdownDown .first2{
+    width: 15%;
+    height: 250px;
+    /* background: crimson; */
+    float: left;
+}
+
+section .down .center .downDown .centerdownDown .first2 span{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+section .down .center .downDown .centerdownDown .second2{
+    width: 85%;
+    height: 250px;
+    /* background:cyan; */
+    float: left;
+}
+
+section .down .center .downDown .centerdownDown .second2 .head2{
+    padding: 5px;
+}
+
+section .down .center .downDown .centerdownDown .second2 .midle2{
+    padding: 5px;
+    font-size: 16px;
+}
+
+section .down .center .downDown .centerdownDown .second2 .foot2{
+    padding: 7px;
+    font-size: 16px;
+}
+
+section .down .center .downDown .centerdownDown .second2 .foot2 a{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+section .down .center .downDown .centerdownDown{
+    width: 34%;
+    min-height: 250px;
+    /* background:darkgreen; */
+    float: left;
+}
+
+section .down .center .downDown .rightdownDown{
+    width: 33%;
+    min-height: 250px;
+    /* background:rgb(51, 92, 167); */
+    float: right;
+}
+
+section .down .center .downDown .rightdownDown .first3{
+    width: 15%;
+    height: 250px;
+    /* background: crimson; */
+    float: left;
+}
+
+section .down .center .downDown .rightdownDown .first3 span{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+section .down .center .downDown .rightdownDown .second3{
+    width: 85%;
+    height: 250px;
+    /* background:cyan; */
+    float: left;
+}
+
+section .down .center .downDown .rightdownDown .second3 .head3{
+    padding: 5px;
+}
+
+section .down .center .downDown .rightdownDown .second3 .midle3{
+    padding: 5px;
+    font-size: 16px;
+}
+
+section .down .center .downDown .rightdownDown .second3 .foot3{
+    padding: 7px;
+    font-size: 16px;
+}
+
+section .down .center .downDown .rightdownDown .second3 .foot3 a{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
 
 
 
