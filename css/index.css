@@ -27,15 +27,14 @@ header .up .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: red; */
-    /* width: 100%;
+    /* background: red;
+    width: 100%;
     min-height: 70px; */
-     position: fixed;
-     right: 0;
-     left: 0;
-     top: 0;
-    display: flex;
-    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+
 }
 
 header .up .navbar .leftUp{
@@ -184,9 +183,13 @@ section .down .center .upDown .leftupDown .ServedOver p{
     padding: 7px;
     }
 
-    section .down .center .upDown .leftupDown .ServedOver p a{
-        color: black;
-    }
+section .down .center .upDown .leftupDown .ServedOver p a{
+    color: black;
+}
+
+section .down .center .upDown .leftupDown .ServedOver p:hover{
+    background: aqua;
+}
 
 
 section .down .center .upDown .rightupDown{
